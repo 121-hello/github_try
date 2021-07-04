@@ -11,7 +11,7 @@
 # 全量执行脚本，需要传入表名参数
 import sys
 import datetime
-sys.path.append("/github_try")
+sys.path.append("/github_try/unit")
 from ReadFile import getsqlfile
 from WriteFile import writefile
 
