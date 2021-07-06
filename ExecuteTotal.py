@@ -11,7 +11,7 @@
 # 全量执行脚本，需要传入表名参数
 import sys
 import datetime
-sys.path.append("/pythons_test/unit")
+sys.path.append("d:/pythons_test/unit")
 from ReadFile import getsqlfile
 from WriteFile import writefile
 
@@ -20,9 +20,9 @@ tb_name = sys.argv[1]
 # tb_name = 'test'
 
 
-SQL_FILE = "D:/pythons_test/sql/{}.sql".format(tb_name)
+SQL_FILE = "d:/pythons_test/sql/{}.sql".format(tb_name)
 print('---------------------------------------------------------') # 分割线
-LOG_FILE = "D:/pythons_test/log/{}.log".format(tb_name)
+LOG_FILE = "d:/pythons_test/log/{}.log".format(tb_name)
 # print(SQL_FILE)
 
 
