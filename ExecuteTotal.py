@@ -11,7 +11,7 @@
 # 全量执行脚本，需要传入表名参数
 import sys
 import datetime
-sys.path.append("d:/pythons_test/unit")
+sys.path.append("d:/pythons_test")
 from ReadFile import getsqlfile
 from WriteFile import writefile
 
