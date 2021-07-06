@@ -20,9 +20,9 @@ tb_name = sys.argv[1]
 # tb_name = 'test'
 
 
-SQL_FILE = "github_try/sql/{}.sql".format(tb_name)
+SQL_FILE = "pythons_test/sql/{}.sql".format(tb_name)
 print('---------------------------------------------------------') # 分割线
-LOG_FILE = "github_try/log/{}.log".format(tb_name)
+LOG_FILE = "pythons_test/log/{}.log".format(tb_name)
 # print(SQL_FILE)
 
 
